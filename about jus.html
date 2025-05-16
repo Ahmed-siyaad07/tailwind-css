@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Siyaad Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="index.html">
+  <style>
+    /* apply Inter via Tailwind utility */
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+   <link  rel="website icon" type="png" href="jus/FAVICON.png">
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Header -->
+  <header class="flex flex-col sm:flex-row items-center justify-between px-6 py-4 border-b border-gray-200">
+    <div class="text-lg font-semibold mb-3 sm:mb-0">Siyaad Web</div>
+    <nav class="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-sm font-medium">
+      <a href="home.html" class="hover:text-yellow-500">Home</a>
+      <a href="about me.html" class="hover:text-yellow-500">About Me</a>
+      <a href="about jus.html" class="hover:text-yellow-500">About Us</a>
+      <a href="village.html" class="hover:text-yellow-500">Village</a>
+      <a href="contact.html" class="hover:text-yellow-500">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-10 space-y-20">
+
+    <!-- About Section -->
+    <section class="flex flex-col md:flex-row items-center gap-8">
+      <div class="md:w-1/2 space-y-4">
+        <h2 class="uppercase text-xs font-semibold text-gray-600">About Us</h2>
+        <p class="text-gray-700 leading-relaxed max-w-md">
+          Taariikhda Ismaaciilka Umalada (1948):  
+          Soo saaraha Somalyeed ee 1948 waxa ka soo baxay ilaa hadda wax soo saar badan oo lagu horumariyo Soomaaliya.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <button class="bg-yellow-400 hover:bg-yellow-500 text-black text-xs font-semibold px-4 py-2 rounded transition">
+            Read More
+          </button>
+          <button class="border border-gray-400 hover:bg-gray-100 text-xs font-semibold px-4 py-2 rounded transition">
+            LinkedIn
+          </button>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img
+          src="logo.jpeg"
+          alt="Scales of justice logo"
+          class=""
+        />
+      </div>
+    </section>
+
+    <!-- Welcome Grid -->
+    <section class="text-center">
+      <h3 class="text-lg font-semibold mb-8">Welcome SNU</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="bg-white border border-gray-200 rounded shadow-sm p-4 text-left">
+          <img
+            src="buug.png"
+            alt="EAP materials"
+            class="w-full h-44 object-cover rounded mb-3"
+          />
+          <h4 class="font-semibold text-sm mb-1">English for Academic Purposes (EAP)</h4>
+          <p class="text-xs text-gray-600">
+            The EAP course is designed to help students improve their academic English skills.
+          </p>
+        </article>
+        <!-- Card 2 -->
+        <article class="bg-white border border-gray-200 rounded shadow-sm p-4 text-left">
+          <img
+            src="15 SOMALI.png"
+            alt="SSNA Congress banner"
+            class="w-full h-44 object-cover rounded mb-3"
+          />
+          <h4 class="font-semibold text-sm mb-1">
+            15th Somali Students National Association Congress
+          </h4>
+          <p class="text-xs text-gray-600">
+            Reconstructing and developing the Somali Nation through SSNA’s 15th Congress.
+          </p>
+        </article>
+        <!-- Card 3 -->
+        <article class="bg-white border border-gray-200 rounded shadow-sm p-4 text-left">
+          <img
+            src="birmade.jpg"
+            alt="SNU graduation"
+            class="w-full h-44 object-cover rounded mb-3"
+          />
+          <h4 class="font-semibold text-sm mb-1">Graduation Students at SNU</h4>
+          <p class="text-xs text-gray-600">
+            On September 4, 2023, SNU held a graduation ceremony for its students.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="flex flex-col md:flex-row items-center gap-8 px-4">
+      <div class="flex-shrink-0">
+        <img
+          src="rector.png"
+          alt="Prof. Hassan Osman Ga'al"
+          class="rounded-full w-36 h-36 object-cover mx-auto md:mx-0"
+        />
+      </div>
+      <div class="text-center md:text-left space-y-4">
+        <h3 class="text-lg font-semibold">Prof. Hassan Osman Ga'al (PhD)</h3>
+        <p class="text-gray-700 leading-relaxed">
+          It is my honor and privilege to welcome you to Somali National University (SNU), 
+          the mother of higher education in Somalia. SNU is a non-profit public university.
+        </p>
+        <div class="w-16 h-1 bg-yellow-400 mx-auto md:mx-0 rounded"></div>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="grid grid-cols-1 sm:grid-cols-3 gap-6 px-4">
+      <div class="border border-gray-300 rounded p-10 text-center">
+        <!-- <i class="fas fa-dollar-sign text-3xl text-yellow-400 mb-4"></i> -->
+         <i class="fa-solid fa-graduation-cap"></i>
+         <!-- <img src="qalinjebin.png" alt=""> -->
+        <h4 class="font-semibold mb-2">No Tuition Fees</h4>
+        <p class="text-xs text-gray-600">
+          We are the only public university in Somalia where students don’t pay tuition fees.
+        </p>
+      </div>
+      <div class="border border-gray-300 rounded p-6 text-center">
+        <!-- <i class="fas fa-file-alt text-3xl text-yellow-400 mb-4"></i> -->
+         <i class="fa-solid fa-book-open-reader"></i>
+         <img src="" alt="">
+        <h4 class="font-semibold mb-2">Research Publications</h4>
+        <p class="text-xs text-gray-600">
+          Our faculty publish cutting-edge research to advance Somali academia.
+        </p>
+      </div>
+      <div class="border border-gray-300 rounded p-6 text-center">
+        <!-- <i class="fas fa-book-open text-3xl text-yellow-400 mb-4"></i> -->
+         <i class="fa-solid fa-book"></i>
+        <h4 class="font-semibold mb-2">Rich Library Resources</h4>
+        <p class="text-xs text-gray-600">
+          Access a wide collection of journals, books, and digital media.
+        </p>
+      </div>
+    </section>
+  </main>
+      <img src="jus/JAAMACAD.png" usemap="#snu-map" alt="SNU" width="800" class="ml-48 ">
+
+      <map name="snu-map">
+        <!-- Sawirka Madaxweynaha -->
+        <area shape="rect" coords="290,265,400,315" href="https://www.facebook.com/share/12CMCZYKT1H/" alt="Madaxweynaha" target="_blank">
+    
+        <!-- Calanka Soomaaliya -->
+        <area shape="rect" coords="100,170,430,110" href="https://villasomalia.gov.so/en/contact-us/" alt="Calanka Soomaaliya" target="_blank">
+    
+        <!-- Logo-da Jaamacadda -->
+        <area shape="rect" coords="510,110,590,250" href="https://snu.edu.so/" alt="Logo Jaamacadda" target="_blank">
+      </map>
+        <div class="sm:w-[600px] md:w-[740px] lg:w-[1000px] items-center mx-auto overflow-x-auto scroll-smooth overflow-y-hidden  ">
+      
+    <div class=" flex shrink-0 snap-center gap-5 mt-16 pt-10  ">
+      <img  class="h-80 w-100  transition-transform duration-300 hover:cursor-zoom-in hover:scale-110" src="jus/birmade.png" alt="nj">
+      <img  class="h-80 transition-transform duration-300 hover:cursor-zoom-in hover:scale-110" src="jus/najmudiin.jpg" alt="nj">
+      <img  class="h-80 transition-transform duration-300 hover:cursor-zoom-in hover:scale-110" src="jus/dean.png" alt="nj">
+      <img  class="h-80 transition-transform duration-300 hover:cursor-zoom-in hover:scale-110" src="jus/JAAMACAD.png" alt="nj">
+      <img  class="h-80 transition-transform duration-300 hover:cursor-zoom-in hover:scale-110" src="jus/wasiir.png" alt="nj">
+      <img  class="h-80 transition-transform duration-300 hover:cursor-zoom-in hover:scale-110" src="jus/image.png" alt="nj">
+
+    </div>
+
+
+
+
+
+  <!-- Footer -->
+ <footer class="relative bg-[#f5b800] mt-16 pt-10 overflow-hidden">
+    <div class="absolute -top-10 left-0 w-full h-20 bg-[#f7f9fc] rounded-t-[100%_50%]"></div>
+    <div class="relative z-10 flex justify-center space-x-6 mb-4 text-black text-lg">
+      <a aria-label="Instagram" class="hover:text-gray-800" href="#"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a aria-label="LinkedIn" class="hover:text-gray-800" href="#"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a aria-label="Email" class="hover:text-gray-800" href="#"
+        ><i class="fas fa-envelope"></i
+      ></a>
+    </div>
+    <p
+      class="text-[8px] text-center text-black opacity-50 relative z-10 pb-6"
+    >
+      Madelyn Tornt 2021
+    </p>
+  </footer>
+
+</body>
+</html>
